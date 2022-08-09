@@ -1,2 +1,30 @@
 @charset "UTF-8";
+.photo{
+  background-image: url(https://github.com/ochiaimiho/LayoutParts-Part2/blob/master/q8/image/coffee-background.jpg?raw=true);
+  height: 500px;
+}
 
+.photo2{
+  background-image: url(https://github.com/ochiaimiho/LayoutParts-Part2/blob/master/q8/image/coffee-background.jpg?raw=true);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.photo3{
+  background-image: url(https://github.com/ochiaimiho/LayoutParts-Part2/blob/master/q8/image/coffee-background.jpg?raw=true);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.photo4{
+  background-image: url(https://github.com/ochiaimiho/LayoutParts-Part2/blob/master/q8/image/coffee-background.jpg?raw=true);
+  height: 56vw;
+  width: 100vw;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
