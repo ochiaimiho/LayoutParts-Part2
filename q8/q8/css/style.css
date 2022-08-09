@@ -15,8 +15,7 @@
   background-size: cover;
   height: 500px;
   width: 100%;
-  margin: 0 auto;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat center center;
 }
 
 .photo4{
@@ -25,6 +24,5 @@
   width: 100vw;
   background-size: cover;
   overflow: hidden;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+  background-repeat: no-repeat center center;
 }
