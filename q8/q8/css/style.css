@@ -22,7 +22,6 @@
 .photo4{
   background-image: url(https://github.com/ochiaimiho/LayoutParts-Part2/blob/master/q8/image/coffee-background.jpg?raw=true);
   height: 500px;
-  overflow: hidden;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
