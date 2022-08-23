@@ -26,6 +26,7 @@
 /* Q9-2 */
 .fade-out{
   animation-name: fadeout;
+  animation-delay: 4s;
   animation-duration: 4s;
 }
 @keyframes fadeout{
@@ -57,6 +58,7 @@
   background: #331aefd0;
   margin: 0 auto;
   position: relative;
+  transition: .5s;
 }
 
 .pink:hover{
@@ -65,76 +67,39 @@
 
 /* Q9-5 */
 .spin2:hover{
-  animation:spin 0.5s linear infinite;
+  transform: rotate(360deg);
 }
-@keyframes spin2{
-  0%{
-    transform: rotate(0deg);
-  }
-  100%{
-    transform: rotate(360deg);
-  }
-}
-
 /* Q9-6 */
 .up:hover{
-  animation: up 0.5s linear;
-}
-@keyframes up{
-  to{
-    transform: translateY(-20%);
-  }
+  transform:translate(0,-20%);
 }
 
 /* Q9-7 */
 .right:hover{
-  animation: right 0.5s linear;
-}
-@keyframes right{
-  to{
-    transform:translateX(20%)
-  }
+  transform: translate(50%,0);
 }
 
 /* Q9-8 */
 .height:hover{
-  transform: scaleY(1.5);
+  height: 300px;
 }
 
 /* Q9-9 */
 .width:hover{
-  transform:scaleX(2.5);
+  width: 500px;
 }
 
 /* Q9-10 */
-.border:hover{
-  animation-name: border;
-  animation-duration: 0.5s;
-  border: 10px #00ffe5 solid;
+.border{
   box-sizing: border-box;
 }
-@keyframes border{
-  from{
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
+.border:hover{
+  border: 10px #00ffe5 solid;
 }
 
 /* Q9-11 */
 .shadow:hover{
-  animation-name: shadow;
-  animation-duration: 0.5s;
   box-shadow: 8px 11px 10px 3px #06031ed0;
-}
-@keyframes shadow{
-  from{
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
 }
 
 /* Q9-12 */
@@ -143,13 +108,17 @@
   height: 50px;
   border: solid 10px #ecf1f2;
   border-bottom-color: #14ff4bcd;
-  border-radius: 100%;
+  border-radius: 50%;
   animation: spin3 1.1s linear infinite;
   margin: 0 auto;
 }
 @keyframes spin3{
-  0%{transform: rotate(0);}
-  100%{transform: rotate(360deg);}
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 /* Q9-13 */
