@@ -122,6 +122,9 @@
 }
 
 /* Q9-13 */
+.ul{
+  list-style: none;
+}
 .card-list{
   display:flex;
 }
